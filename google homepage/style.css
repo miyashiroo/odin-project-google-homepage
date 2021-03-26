@@ -1,0 +1,12 @@
+#toplane {
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#logo {
+    align-content: center;
+}
+li{
+    display: inline;
+}

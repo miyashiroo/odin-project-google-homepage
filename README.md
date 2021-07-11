@@ -1,2 +1,4 @@
 # odin project - google homepage
- First html page that i learn from odin project.
+ First HTML project on the course of The Odin Project.
+ Never done this before, so be compreensive. But i gonna do my best for this.
+ Thanks.

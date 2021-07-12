@@ -8,11 +8,15 @@ li {
   display: inline;
 }
 
+nav {
+  justify-content: flex-end;
+  display: flex;
+}
 #generico {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 290px;
+  max-height: 400px;
   height: 1280px;
   justify-content: flex-end;
 }
@@ -23,10 +27,4 @@ li {
   object-fit: contain;
   object-position: center bottom;
   width: auto;
-}
-
-#div-top {
-  position: absolute;
-  top: 0px;
-  justify-content: flex-end;
 }

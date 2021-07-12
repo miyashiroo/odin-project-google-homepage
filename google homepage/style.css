@@ -1,12 +1,32 @@
-#toplane {
-    text-align: right;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-#logo {
-    align-content: center;
+
+li {
+  display: inline;
 }
-li{
-    display: inline;
+
+#generico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 290px;
+  height: 1280px;
+  justify-content: flex-end;
+}
+
+#logoGoogle {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+}
+
+#div-top {
+  position: absolute;
+  top: 0px;
+  justify-content: flex-end;
 }

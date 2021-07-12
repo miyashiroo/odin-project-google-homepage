@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -27,4 +30,34 @@ nav {
   object-fit: contain;
   object-position: center bottom;
   width: auto;
+}
+
+.wrapper {
+  justify-content: center;
+  display: flex;
+  position: relative;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.input-icon-wraper {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ddd;
+}
+
+.search-box {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  position: relative;
+}
+
+.buttons {
+  flex: 1;
+  border: none;
+}
+
+.icon-geral {
+  position: relative;
 }

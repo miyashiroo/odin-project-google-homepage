@@ -6,38 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
   </head>
   <body>
-    <div id="ContainAll">
-      <header>
-        <nav id="nav-top">
-          <ul>
-            <li><a href="">Gmail</a></li>
-            <li><a href="">Imagens</a></li>
-            <li><a href=""><i class="material-icons">apps</i></li>
-            <li><a href=""><i class="material-icons">account_circle</i></a></li>
-          </ul>
-        </nav>
-      </header>
+    <header>
+      <nav>
+        <ul class="header-nav">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <img src="/google homepage/assets/icons/apps.png" alt="Apps Google" />
+          <img
+            src="/google homepage/assets/icons/account_circle.png"
+            alt="Sign In"
+          />
+        </ul>
+      </nav>
+    </header>
 
+    <section>
       <div id="generico">
         <div id="logoGoogle">
           <img src="/google homepage/google banner.png" alt="google baner" />
         </div>
       </div>
-      <div class="wrapper" >
+
+      <div class="wrapper">
         <div class="input-icon-wraper">
-          <i class="material-icons icon-search">search</i>
-          <i class="material-icons icon-geral">keyboard</i>
-          <i class="material-icons icon geral">mic</i>
-          <input class="search-box" type="text"> 
+          <img src="./assets/icons/search.png" alt="Search Button" />
+          <input class="search-box" type="text" />
+          <img src="./assets/icons/keyboard.png" alt="" />
+          <img src="./assets/icons/mic.png" alt="" />
         </div>
         <div class="buttons">
           <button>Pesquisar no Google</button>
           <button>Estou com sorte</button>
         </div>
       </div>
+
       <div id="generico">
         Outra div generica com outra div com o disponibilizado pelo google em
         english
@@ -58,6 +66,6 @@
           <li>configurações</li>
         </ul>
       </div>
-    </div>
+    </section>
   </body>
 </html>

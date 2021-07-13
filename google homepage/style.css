@@ -1,20 +1,49 @@
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline;
+a {
+  margin: 5px;
+  text-decoration: none;
+  color: black;
 }
 
+a:hover {
+  text-decoration: underline;
+}
 nav {
-  justify-content: flex-end;
   display: flex;
+  justify-content: flex-end;
 }
+img:hover {
+  cursor: pointer;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.input-icon-wraper {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  border: 1px solid gainsboro;
+}
+
+.input-icon-wraper > input {
+  flex-grow: 1;
+  border: none;
+}
+
 #generico {
   display: flex;
   flex-direction: column;
@@ -30,34 +59,4 @@ nav {
   object-fit: contain;
   object-position: center bottom;
   width: auto;
-}
-
-.wrapper {
-  justify-content: center;
-  display: flex;
-  position: relative;
-  margin: auto;
-  flex-direction: column;
-  align-items: center;
-}
-.input-icon-wraper {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid #ddd;
-}
-
-.search-box {
-  display: flex;
-  width: 500px;
-  align-items: center;
-  position: relative;
-}
-
-.buttons {
-  flex: 1;
-  border: none;
-}
-
-.icon-geral {
-  position: relative;
 }
